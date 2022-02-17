@@ -11,8 +11,7 @@ export default function Home() {
 			</Head>
 
 			<Main>
-				<H1>Nextjs 12 Boilerplate with JavaScript and styled-components!</H1>
-
+				<H1>Nextjs boilerplate with JavaScript and styled-components!</H1>
 				<About />
 			</Main>
 		</div>
@@ -26,5 +25,5 @@ const Main = styled.main`
 
 const H1 = styled.h1`
 	font-size: 2rem;
-	color: #025;
+	color: ${props => props.theme.colors.secondary};
 `;
