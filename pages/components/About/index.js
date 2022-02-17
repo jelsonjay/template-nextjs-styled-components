@@ -4,6 +4,7 @@ const Wrap = styled.section`
 	max-width: 70rem;
 	margin: 0 auto;
 	color: ${props => props.theme.colors.paragraph};
+	margin-top: 1rem;
 `;
 
 function AboutPage() {
